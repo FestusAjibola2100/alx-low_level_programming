@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-/** main-is the entry point for the program
+/** main: is the entry point for the program
  *
- * Return: zero if no error, non-zero value if errors
+ * return: zero if no error, non-zero value if errors
  */
+
 int main(void)
 {
 	printf("size of a char: %ld byte(s)\n", sizeof(char));
